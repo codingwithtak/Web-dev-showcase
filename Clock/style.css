@@ -1,38 +1,38 @@
 #clock{  
     position: relative;
     margin: auto;
-    height: 40vw;
-    width: 40vw; 
+    height: 30vw;
+    width: 30vw; 
     background: url(clock.png) no-repeat;
     background-size: 100%;
 }
 
 #hour, #minute, #second{
     position: absolute;
-    border-radius: 10px; 
+    border-radius: 19px; 
     transform-origin: bottom;
-    justify-content: center;
+    justify-content: right;
 }
 #hour{
     width: 1.8%;
-    height: 21%;
-    top: 27%;
-    left: 48.85%;
-    background-color: red;
+    height: 28%;
+    top: 57%;
+    left: 42.85%;
+    background-color: black;
 
 }
 #minute{
-    width: 1.6%;
+    width: 1.8%;
     height: 28%;
-    top: 19%;
-    left: 48.9%;
+    top: 14%;
+    left: 4.9%;
     background-color: cyan;
 }
 #second{
     width: 1%;
-    height: 31%;
+    height: 41%;
     top: 17%;
-    left: 49.25%;
+    left: 79.25%;
     background-color: black;
     
 }
